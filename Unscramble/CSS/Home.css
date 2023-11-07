@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1vh;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.cards{
+    border:2px solid rgba(0, 0, 0, 0.08);
+    background-color: rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 25px;
+    padding: 60px;
+    margin: 40px;
+}
+
+.cards:hover {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+.cardimages{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.cards > p{
+    font-size: 30px;
+    text-align: center;
+}

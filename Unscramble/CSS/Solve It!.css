@@ -1,0 +1,55 @@
+.main{
+    padding: 50px 100px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.howtouse{
+    text-align: left;
+}
+
+.outertext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerimages{
+    width: 150px;
+}
+
+.arrow{
+    width: 80px;
+    height: 35px;
+}
+
+.note{
+    font-size: 15px;
+}
+
+.innerimages{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerimages img{
+    padding: 0px 20px;
+    width: 90px;
+}
+
+.fourmoves{
+    text-decoration: underline 2px solid black;
+}
+
+.memorizethis{
+    font-size: 14px;
+    list-style-type: none;
+}
